@@ -1,0 +1,30 @@
+{
+    "name":         "irs/behat-popup-extension",
+    "description":  "Behat context that for popup handling with Selenium 2",
+    "keywords":     ["Magento", "Behat", "TAF", "uimap"],
+    "type":         "library",
+    "license":      "MIT",
+
+    "authors": [
+        {
+            "name":   "Vadim Kusakin",
+            "email":  "vadim.irbis@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "php":          ">=5.4.0",
+        "behat/behat":  "2.4.*",
+        "behat/mink":   "1.4.*",
+        "behat/mink-extension": "*",
+        "behat/mink-selenium2-driver": "*"
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    
+    "autoload": {
+        "psr-0": {"Irs\\BehatPopupExtension": "src/"}
+    }
+}
