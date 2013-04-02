@@ -1,5 +1,5 @@
 language: php
 php: 5.4
 install: composer install --dev
-script: vendor/bin/phpunit --configuration tests/phpunit.xml.dist
+script: vendor/bin/phpunit
  
