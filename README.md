@@ -29,15 +29,8 @@ The simplest way to install the extension it's to add following code to your `co
 ```javascript
 {
     "require": {
-        "irs/behat-popup-extension": "dev-master",
-    },
-    
-    "repositories": [
-        {
-            "type":  "vcs",
-            "url":   "https://github.com/irs/behat-popup-extension.git"
-        }
-    ]
+        "irs/behat-popup-extension": "dev-master"
+    }
 }
 
 ```
