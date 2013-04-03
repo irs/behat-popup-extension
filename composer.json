@@ -1,6 +1,6 @@
 {
     "name":         "irs/behat-popup-extension",
-    "description":  "Behat context for popup manipulations with Selenium 2",
+    "description":  "Behat context for popup manipulations with Selenium 2.",
     "keywords":     ["Magento", "Behat", "TAF", "uimap"],
     "type":         "library",
     "license":      "MIT",
@@ -16,7 +16,6 @@
         "php":          ">=5.4.0",
         "behat/behat":  "2.4.*",
         "behat/mink":   "1.4.*",
-        "behat/mink-extension": "*",
         "behat/mink-selenium2-driver": "*"
     },
     
