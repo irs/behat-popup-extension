@@ -3,10 +3,9 @@ Behat's popup extension
 
 [![Build Status](https://travis-ci.org/irs/behat-popup-extension.png?branch=master)](https://travis-ci.org/irs/behat-popup-extension)
 
-The extension adds following step definitions to feature context that allows to test popups. 
+The extension adds following step definitions to feature context that allows to test popups: 
 
 ```
-Given /^I have done something with "([^"]*)"$/
 Given /^(?:|I )press ok on alert$/
 Given /^(?:|I )press ok on confirmation$/
 Given /^(?:|I )press ok on input popup$/
