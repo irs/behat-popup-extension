@@ -23,7 +23,7 @@ Given /^the prompt message should not contain "([^"]*)"$/
 Installation
 ------------
 
-The simplest way to install the extension it's to add following code to your `composer.json:`
+The simplest way to install the extension is to add following code to your `composer.json:`
 
 ```javascript
 {
