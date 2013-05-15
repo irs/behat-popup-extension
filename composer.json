@@ -1,7 +1,7 @@
 {
     "name":         "irs/behat-popup-extension",
     "description":  "Behat context for popup manipulations with Selenium 2.",
-    "keywords":     ["Magento", "Behat", "TAF", "uimap"],
+    "keywords":     ["Behat", "popup", "alert", "confirm"],
     "type":         "library",
     "license":      "MIT",
 
