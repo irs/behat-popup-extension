@@ -42,4 +42,4 @@ default:
     Irs\BehatPopupExtension\Extension: ~
 ```
 
-Now you can use `Irs\BehatPopupExtension\PopupContext` trait in the feature context.
+Now you can use `Irs\BehatPopupExtension\PopupContext` trait in the feature context. And do not forget that features' context should implement `Behat\MinkExtension\Context\MinkAwareInterface`.
